@@ -5,3 +5,7 @@ npx create-next-app@latest ./
 step 2:
 npx shadcn-ui@latest init
 npx shadcn-ui@latest add button
+
+step 3:
+upload with NextJS:
+npm i uploadthing @uploadthing/react
