@@ -9,3 +9,17 @@ npx shadcn-ui@latest add button
 step 3:
 upload with NextJS:
 npm i uploadthing @uploadthing/react
+
+step 4:
+edit file tailwind.config.ts dan tsconfig.json dan global.css
+
+step 5:
+buat akun clerk di clerk.com untuk proses auth
+- create application
+- set environment key to file .env.local
+- continue to docs
+- npm install @clerk/nextjs
+- tambahkan <ClerkProvider> di app/layout.tsx
+- add file middleware.ts, isinya copy dari docs
+- edit config sign in di dashboard.clerk.co -> user & authentication -> social connections
+- pilih bisa sign lewat app apapun
