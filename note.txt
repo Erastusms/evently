@@ -23,3 +23,4 @@ buat akun clerk di clerk.com untuk proses auth
 - add file middleware.ts, isinya copy dari docs
 - edit config sign in di dashboard.clerk.co -> user & authentication -> social connections
 - pilih bisa sign lewat app apapun
+- create custom page sign in, sign up, fill the .env.local
