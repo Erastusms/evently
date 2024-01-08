@@ -35,3 +35,6 @@ add separator
 - npx shadcn-ui@latest add separator
 - ikuti step di https://ui.shadcn.com/docs/components/separator
 
+step 8:
+- create constant (optional)
+- finishing navItems
