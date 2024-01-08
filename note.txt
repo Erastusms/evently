@@ -24,3 +24,10 @@ buat akun clerk di clerk.com untuk proses auth
 - edit config sign in di dashboard.clerk.co -> user & authentication -> social connections
 - pilih bisa sign lewat app apapun
 - create custom page sign in, sign up, fill the .env.local
+
+step 6:
+create nav and mobileNav
+- npx shadcn-ui@latest add sheet
+- ikuti step di https://ui.shadcn.com/docs/components/sheet
+
+step 7:
