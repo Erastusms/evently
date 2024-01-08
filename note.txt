@@ -31,3 +31,7 @@ create nav and mobileNav
 - ikuti step di https://ui.shadcn.com/docs/components/sheet
 
 step 7:
+add separator
+- npx shadcn-ui@latest add separator
+- ikuti step di https://ui.shadcn.com/docs/components/separator
+
