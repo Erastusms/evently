@@ -38,3 +38,6 @@ add separator
 step 8:
 - create constant (optional)
 - finishing navItems
+
+step 9:
+finishing footer
