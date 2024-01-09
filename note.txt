@@ -41,3 +41,15 @@ step 8:
 
 step 9:
 finishing footer
+
+step 10:
+npm install mongoose mongodb
+create akun mongodb
+
+step 11:
+sync with webhook clerk from https://clerk.com/docs/users/sync-data
+- npm install svix
+- npm install query-string
+
+step 12:
+config database in coding
