@@ -53,3 +53,13 @@ sync with webhook clerk from https://clerk.com/docs/users/sync-data
 
 step 12:
 config database in coding
+
+step 13:
+finishing category and order models
+
+step 14:
+first deploy to vercel
+
+step 15:
+lanjutkan dari https://clerk.com/docs/users/sync-data dan
+https://dashboard.clerk.com/apps -> webhooks
