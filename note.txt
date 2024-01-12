@@ -64,3 +64,8 @@ first deploy to vercel
 step 15:
 lanjutkan dari https://clerk.com/docs/users/sync-data dan
 https://dashboard.clerk.com/apps -> webhooks
+
+step 16:
+create eventForm
+- look https://ui.shadcn.com/docs/components/form
+- npx shadcn-ui@latest add form
