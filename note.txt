@@ -69,3 +69,6 @@ step 16:
 create eventForm
 - look https://ui.shadcn.com/docs/components/form
 - npx shadcn-ui@latest add form
+- npx shadcn-ui@latest add input
+- npx shadcn-ui@latest add select
+
