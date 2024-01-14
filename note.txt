@@ -71,4 +71,6 @@ create eventForm
 - npx shadcn-ui@latest add form
 - npx shadcn-ui@latest add input
 - npx shadcn-ui@latest add select
+- npx shadcn-ui@latest add alert-dialog
+- npx shadcn-ui@latest add textarea
 
