@@ -73,4 +73,5 @@ create eventForm
 - npx shadcn-ui@latest add select
 - npx shadcn-ui@latest add alert-dialog
 - npx shadcn-ui@latest add textarea
-
+- config uploadthing di https://docs.uploadthing.com/getting-started/appdir
+- find useDropzone https://docs.uploadthing.com/api-reference/react and copas to FileUploader.tsx
