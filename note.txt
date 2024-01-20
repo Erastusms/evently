@@ -75,3 +75,5 @@ create eventForm
 - npx shadcn-ui@latest add textarea
 - config uploadthing di https://docs.uploadthing.com/getting-started/appdir
 - find useDropzone https://docs.uploadthing.com/api-reference/react and copas to FileUploader.tsx
+- npm i react-datepicker and config di https://www.npmjs.com/package/react-datepicker
+
