@@ -78,3 +78,5 @@ create eventForm
 - npm i react-datepicker and config di https://www.npmjs.com/package/react-datepicker
 - npx shadcn-ui@latest add checkbox
 
+step 17:
+finishing fungsi handleAddCategory
