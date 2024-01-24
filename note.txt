@@ -82,3 +82,6 @@ step 17:
 finishing fungsi handleAddCategory
 finishing fungsi onSubmit di eventForm
 customize session token di dashboard.clerk.com -> set "userId": "{{user.public_metadata.userId}}"
+
+step 18:
+creating page EventDetails phase 1
