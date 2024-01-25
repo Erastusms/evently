@@ -85,3 +85,6 @@ customize session token di dashboard.clerk.com -> set "userId": "{{user.public_m
 
 step 18:
 creating page EventDetails phase 1
+
+step 19:
+initializing collection in home page
