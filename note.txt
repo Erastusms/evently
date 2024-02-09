@@ -87,4 +87,5 @@ step 18:
 creating page EventDetails phase 1
 
 step 19:
-initializing collection in home page
+- initializing collection in home page
+- create card in collection
