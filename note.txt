@@ -89,3 +89,9 @@ creating page EventDetails phase 1
 step 19:
 - initializing collection in home page
 - create card in collection
+
+step 20:
+- create related events in EventDetails
+
+step 21:
+- create profile page Events Organized
