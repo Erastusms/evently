@@ -95,8 +95,11 @@ step 20:
 
 step 21:
 - create profile page Events Organized
+- create checkout page
 
 step 22:
 - config stripe untuk payment di web stripe
 doc stripe api : https://docs.stripe.com/checkout/quickstart?client=next
+- lanjutkan dari https://dashboard.stripe.com/ -> developers -> webhooks -> add endpoint
+- npx i  stripe @stripe/stripe-js 
 - create order.actions.ts untuk logic order diambil dari doc stripe api
