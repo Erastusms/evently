@@ -11,23 +11,17 @@ export async function POST(request: Request) {
     let event
 
     try {
-        console.log('masuk try : ')
         event = stripe.webhooks.constructEvent(body, sig, endpointSecret)
-        console.log('event done execute ')
 
     } catch (err) {
-        console.log(err)
         return NextResponse.json({ message: 'Webhook error', error: err })
     }
 
     // Get the ID and type
     const eventType = event.type
-    console.log('event : ' + eventType)
 
     // CREATE
     if (eventType === 'checkout.session.completed') {
-        console.log('event : ' + event.data.object)
-
         const { id, amount_total, metadata } = event.data.object
 
         const order = {
