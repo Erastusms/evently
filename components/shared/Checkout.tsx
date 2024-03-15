@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react'
+import { loadStripe } from '@stripe/stripe-js';
+
 import { Button } from '../ui/button'
 import { IEvent } from '@/lib/database/models/event.model'
-import { loadStripe } from '@stripe/stripe-js';
 import { checkoutOrder } from '@/lib/actions/order.actions';
 
 // Make sure to call `loadStripe` outside of a component’s render to avoid
@@ -24,7 +25,7 @@ const Checkout = ({ event, userId }: { event: IEvent, userId: string }) => {
     const onCheckout = async () => {
         const order = {
             eventTitle: event.title,
-            eventId: event.id,
+            eventId: event._id,
             price: event.price,
             isFree: event.isFree,
             buyerId: userId
