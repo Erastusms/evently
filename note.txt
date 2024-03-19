@@ -114,3 +114,4 @@ step 24:
 - create order details page
 - create fitur search di homepage
 - create fitur categoryFilter di homepage
+- create pagination di homepage

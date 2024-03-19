@@ -137,6 +137,7 @@ export async function getAllEvents({
     return {
       data: JSON.parse(JSON.stringify(events)),
       totalPages: Math.ceil(eventsCount / limit),
+      limit: limit
     };
   } catch (error) {
     handleError(error);
