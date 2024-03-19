@@ -112,3 +112,4 @@ create pagination in profile page
 
 step 24:
 - create order details page
+- create fitur search di homepage
